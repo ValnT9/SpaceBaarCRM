@@ -1,0 +1,11 @@
+D:\Project\CRM\CRM\bin\Debug\CRM.exe.config
+D:\Project\CRM\CRM\bin\Debug\CRM.exe
+D:\Project\CRM\CRM\bin\Debug\CRM.pdb
+D:\Project\CRM\CRM\bin\Debug\CRM.xml
+D:\Project\CRM\CRM\obj\Debug\CRM.vbprojResolveAssemblyReference.cache
+D:\Project\CRM\CRM\obj\Debug\CRM.Form1.resources
+D:\Project\CRM\CRM\obj\Debug\CRM.Resources.resources
+D:\Project\CRM\CRM\obj\Debug\CRM.vbproj.GenerateResource.Cache
+D:\Project\CRM\CRM\obj\Debug\CRM.exe
+D:\Project\CRM\CRM\obj\Debug\CRM.xml
+D:\Project\CRM\CRM\obj\Debug\CRM.pdb
