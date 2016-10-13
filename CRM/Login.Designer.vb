@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class Login
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -27,7 +27,8 @@ Partial Class Form1
         Me.txtpassword = New System.Windows.Forms.TextBox()
         Me.btnlogin = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnregister = New System.Windows.Forms.Button()
+        Me.btnexit = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -58,7 +59,7 @@ Partial Class Form1
         '
         'btnlogin
         '
-        Me.btnlogin.Location = New System.Drawing.Point(230, 127)
+        Me.btnlogin.Location = New System.Drawing.Point(197, 127)
         Me.btnlogin.Name = "btnlogin"
         Me.btnlogin.Size = New System.Drawing.Size(75, 23)
         Me.btnlogin.TabIndex = 3
@@ -70,26 +71,36 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(194, 175)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(54, 13)
+        Me.Label1.Size = New System.Drawing.Size(60, 13)
         Me.Label1.TabIndex = 4
-        Me.Label1.Text = "New User"
+        Me.Label1.Text = "New User?"
         '
-        'Button1
+        'btnregister
         '
-        Me.Button1.Location = New System.Drawing.Point(254, 170)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(94, 23)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Register Now"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnregister.Location = New System.Drawing.Point(254, 170)
+        Me.btnregister.Name = "btnregister"
+        Me.btnregister.Size = New System.Drawing.Size(94, 23)
+        Me.btnregister.TabIndex = 5
+        Me.btnregister.Text = "Register Now"
+        Me.btnregister.UseVisualStyleBackColor = True
         '
-        'Form1
+        'btnexit
+        '
+        Me.btnexit.Location = New System.Drawing.Point(278, 127)
+        Me.btnexit.Name = "btnexit"
+        Me.btnexit.Size = New System.Drawing.Size(70, 23)
+        Me.btnexit.TabIndex = 6
+        Me.btnexit.Text = "Exit"
+        Me.btnexit.UseVisualStyleBackColor = True
+        '
+        'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.ClientSize = New System.Drawing.Size(419, 247)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnexit)
+        Me.Controls.Add(Me.btnregister)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnlogin)
         Me.Controls.Add(Me.txtpassword)
@@ -97,9 +108,8 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox1)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "Form1"
+        Me.Name = "Login"
         Me.ShowIcon = False
-        Me.Text = "Form1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -111,5 +121,6 @@ Partial Class Form1
     Friend WithEvents txtpassword As TextBox
     Friend WithEvents btnlogin As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnregister As Button
+    Friend WithEvents btnexit As Button
 End Class
